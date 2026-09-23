@@ -45,7 +45,27 @@ This repository contains all the tasks completed during my **Data Analytics Virt
 
 ---
 
-### ⏳ Task 2: [Coming Soon]
+### ✅ Task 2: Exploratory Data Analysis (EDA)
+
+**Objective:** Analyze the cleaned dataset using descriptive statistics, identify trends, distributions, relationships, and detect outliers.
+
+**Dataset:** Titanic Dataset (cleaned in Task 1) — 891 rows × 11 columns
+
+**Steps Performed:**
+- Generated descriptive statistics (mean, median, mode, std, variance, skewness)
+- Visualized distributions using histograms (Age, Fare, Pclass, SibSp)
+- Created a correlation heatmap to find relationships between variables
+- Detected outliers using the IQR method
+- Answered key business questions using summary statistics
+
+**Key Findings:**
+- Overall survival rate: **38.38%**
+- Female survival: **74.20%** vs Male survival: **18.89%**
+- 1st class survival: **62.96%** vs 3rd class: **24.24%**
+- Strongest correlations: `Sex ↔ Survived` (+0.543), `Fare ↔ Pclass` (−0.549)
+- Outliers: Age (66), Fare (116) — kept as valid data points
+
+**Files:** `Task2_EDA/`
 
 ---
 
@@ -59,7 +79,7 @@ This repository contains all the tasks completed during my **Data Analytics Virt
 - Pandas
 - NumPy
 - Matplotlib / Seaborn
-- Jupyter Notebook
+- VS Code
 
 ---
 
