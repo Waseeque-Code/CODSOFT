@@ -93,6 +93,26 @@ This repository contains all the tasks completed during my **Data Analytics Virt
 
 ---
 
+### ✅ Task 4: Customer Data Analysis
+
+**Objective:** Analyze customer purchasing behavior and segment customers to identify valuable groups.
+
+**Dataset:** Mall Customer Segmentation Dataset (200 customers)
+
+**Steps Performed:**
+- Inspected data structure and descriptive statistics
+- Segmented customers by age, gender, and income
+- Analyzed income vs spending relationships
+- Created visual reports (pie, histogram, scatter, bar charts)
+- Built a combined dashboard
+
+**Key Insights:**
+- Female customers are the majority
+- High income + high spending = most valuable group
+- Age groups show different spending patterns
+
+**Files:** `Task4_Customer_Analysis/`
+
 ## 🛠️ Tools & Libraries Used
 
 - Python
