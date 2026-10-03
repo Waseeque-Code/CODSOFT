@@ -113,6 +113,32 @@ This repository contains all the tasks completed during my **Data Analytics Virt
 
 **Files:** `Task4_Customer_Analysis/`
 
+---
+
+### ✅ Task 5: Web Data Extraction & Analysis
+
+**Objective:** Scrape data from a public website using BeautifulSoup and perform exploratory analysis.
+
+**Dataset:** Books to Scrape (http://books.toscrape.com/) — 100 books from 5 pages
+
+**Steps Performed:**
+- Scraped book details (Title, Price, Rating, Availability) using Requests and BeautifulSoup
+- Added 1-second delay between requests for ethical scraping
+- Cleaned data by removing duplicates and fixing data types
+- Converted rating text to numbers (One=1 to Five=5)
+- Performed exploratory analysis on price, rating, and availability
+- Created visual reports (bar, histogram, scatter charts)
+- Built a combined dashboard
+- Exported scraped data to `books_scraped.csv`
+
+**Key Insights:**
+- Most books are rated 3-4 stars
+- Price range: £10 to £60
+- No strong correlation between price and rating
+- Most books are in stock
+
+**Files:** `Task5_Web_Scraping/`
+
 ## 🛠️ Tools & Libraries Used
 
 - Python
